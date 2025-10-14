@@ -1,15 +1,13 @@
 <script lang="ts">
    import "../app.css";
-   import Footer from "$lib/components/footer.svelte";
-   import NavBar from "$lib/components/navBar.svelte";
-   import SideBar from "$lib/components/sideBar.svelte";
+   import Footer from "$lib/components/Footer.svelte";
+   import NavBar from "$lib/components/NavBar.svelte";
 
    let { children } = $props();
 </script>
 
 <NavBar/>
-<main class="flex justify-around ">
-    <SideBar/>
+<main>
     {@render children?.()}
 </main>
 <Footer/>

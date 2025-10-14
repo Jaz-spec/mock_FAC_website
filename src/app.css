@@ -2,3 +2,8 @@
 @plugin "daisyui" {
   themes: all;
 }
+
+.dev {
+  padding: 1rem;
+  border: solid 2px darkmagenta;
+}
