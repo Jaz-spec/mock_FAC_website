@@ -1,0 +1,14 @@
+<script lang="ts">
+   import Footer from "$lib/components/footer.svelte";
+   import NavBar from "$lib/components/navBar.svelte";
+   import SideBar from "$lib/components/sideBar.svelte";
+
+	let { children } = $props();
+</script>
+
+<NavBar/>
+<main>
+    <SideBar/>
+    {@render children?.()}
+</main>
+<Footer/>
