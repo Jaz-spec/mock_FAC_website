@@ -1,1 +1,1 @@
-<h1 class="dev">Blog page</h1>
+<h1 >We definitely need our own blog page</h1>

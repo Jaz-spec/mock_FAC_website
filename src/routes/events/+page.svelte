@@ -1,1 +1,1 @@
-<h1 class="dev">Upcoming events</h1>
+<h1 > Here is where we would put all our upcoming events</h1>

@@ -1,1 +1,1 @@
-<h1 class="dev">landing page</h1>
+<h1>Attractive Landing page here</h1>
