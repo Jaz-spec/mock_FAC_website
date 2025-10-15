@@ -1,2 +1,4 @@
-<h1>Courses</h1>
-<a href="courses/ai-engineering">AI engineering</a>
+<div class="dev">
+
+<h1>AI engineering</h1>
+</div>

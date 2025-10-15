@@ -2,9 +2,9 @@
   let { categories } = $props()
 </script>
 
-<aside class="flex flex-col">
+<aside class="flex flex-col dev">
     <h1>Sidebar</h1>
     {#each categories as category }
-        <a href="/{category}">{category}</a>
+        <a class="dev" href="/{category}">{category}</a>
     {/each}
 </aside>
