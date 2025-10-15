@@ -8,11 +8,13 @@
 </script>
 
 <div class="flex flex-col min-h-screen">
-    <NavBar/>
-    <main class="flex-grow flex {$page.url.pathname.startsWith('/courses') ? 'justify-between' : 'justify-center'}">
-        <div class="w-3/5">
-            {@render children?.()}
-        </div>
-    </main>
+    <div class="w-11/12 mx-auto flex flex-col flex-grow">
+        <NavBar/>
+        <main class="flex-grow flex w-full mt-2 {$page.url.pathname.startsWith('/courses') ? 'justify-between' : 'justify-center'}">
+            <div class="{$page.url.pathname.startsWith('/courses') ? 'w-9/10' : 'w-3/4'}">
+                {@render children?.()}
+            </div>
+        </main>
+    </div>
     <Footer/>
 </div>

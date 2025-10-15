@@ -6,9 +6,7 @@
 </script>
 
 <div class="flex">
-    <div class="ml-4">
         <SideBar {categories} />
-    </div>
     <div class="flex-grow flex">
         <div class="w-3/5">
             {@render children?.()}
