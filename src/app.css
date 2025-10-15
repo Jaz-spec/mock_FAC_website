@@ -1,4 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: all;
+  themes: light --default;
+}
+
+.dev {
+  padding: 1rem;
+  border: solid 2px darkmagenta;
 }
